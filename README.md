@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/cbqdg3hll4io7w9b/branch/master?svg=true)](https://ci.appveyor.com/project/leonnika/aqa-hw3/branch/master)
