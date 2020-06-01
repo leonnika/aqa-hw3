@@ -119,10 +119,19 @@ public class SeleniumTest {
             String text = name.findElement(By.className("input__sub")).getText();
             assertEquals(expected, text.trim());
         }
-
+// Тысты которые будут fail
 //        @Test
 //        void shouldNotSentFormNameOnly() {
 //            driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("Иванов");
+//            driver.findElement(By.cssSelector("[role='button']")).click();
+//            WebElement name = driver.findElement(By.cssSelector("[data-test-id=name]"));
+//            String text = name.findElement(By.className("input__sub")).getText();
+//            assertEquals(expected, text.trim());
+//        }
+
+ //       @Test
+//        void shouldNotSentFormNameDifferentCaseLetters() {
+//            driver.findElement(By.cssSelector("[data-test-id=name] input")).sendKeys("иВаноВ иВАН");
 //            driver.findElement(By.cssSelector("[role='button']")).click();
 //            WebElement name = driver.findElement(By.cssSelector("[data-test-id=name]"));
 //            String text = name.findElement(By.className("input__sub")).getText();
@@ -176,6 +185,7 @@ public class SeleniumTest {
             assertEquals(expected, text.trim());
         }
 
+// Тысты которые будут fail
 //        @Test
 //        void shouldNotSentFormPhoneFist0(){
 //            driver.findElement(By.cssSelector("[data-test-id=phone] input")).sendKeys("+09999999999");
