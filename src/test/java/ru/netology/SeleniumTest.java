@@ -15,7 +15,7 @@ public class SeleniumTest {
 
     @BeforeAll
     static void setUpAll() {
-        System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./chromedriver");
     }
 
     @BeforeEach
